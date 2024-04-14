@@ -1,0 +1,56 @@
+:root {
+    --header-bg: red;
+    --nav-bg: orangered;
+    --main-bg: limegreen;
+    --article-bg: blue;
+    --footer-bg: purple;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+
+    background-color: var(--header-bg);
+}
+
+header h1 {
+    width: 100%;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--nav-bg);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+
+    background-color: var(--main-bg);
+}
+
+article {
+    background-color: var(--article-bg);
+}
+
+.article-first {
+    margin-bottom: 4px;
+}
+
+footer {
+    text-align:center;
+
+    background-color: var(--footer-bg);
+}
+
+footer h1 {
+    margin: 0;
+}
