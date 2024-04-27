@@ -15,6 +15,7 @@
 }
 
 .skeleton__group-item {
+    width: 100%;
     align-self: center;
 }
 
@@ -35,4 +36,16 @@
 
 .skeleton__line:last-child {
     margin-bottom: 0;
+}
+
+.skeleton__line_small {
+    width: 30%
+}
+
+.skeleton__line_medium {
+    width: 60%
+}
+
+.skeleton__line_large {
+    width: 100%
 }
