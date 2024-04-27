@@ -22,7 +22,7 @@
     color: var(--text-secondary);
 }
 
-.histogram_title {
+.histogram__title {
     opacity: 0.8;
     margin-bottom: 6px;
 }
@@ -42,6 +42,7 @@
 
 .histogram__bars {
     display: flex;
+    gap: 1px;
     flex-wrap: nowrap;
     width: 100%;
     align-items: flex-end;
@@ -51,10 +52,5 @@
 
 .histogram__bar {
     flex-grow: 1;
-    margin-right: 1px;
     background: var(--primary);
-}
-
-.histogram__bar:last-child {
-    margin-right: 0;
 }
