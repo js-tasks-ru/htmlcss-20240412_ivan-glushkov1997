@@ -11,6 +11,8 @@
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
     --grey-4: #495057;
+    --text-secondary: #212429;
+    --text-primary: #212429;
 
     --error: var(--red);
     --success: var(--blue);
