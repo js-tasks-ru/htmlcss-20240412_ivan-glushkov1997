@@ -5,15 +5,19 @@
     --black: #212429;
     --pink: #F784AD;
     --purple: #7048E8;
+    --hover-purple: #5028C6;
     --blue: #374FC7;
     --blue-2: #4263EB;
+    --hover-blue: #2342C0;
     --red: #F03D3E;
     --grey-1: #F8F9FA;
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
     --grey-4: #495057;
+    --grey-5: #C4C4C4;
     --text-secondary: #212429;
     --text-primary: #212429;
+    --text-blue: #334D6E;
 
     --error: var(--red);
     --success: var(--blue);
